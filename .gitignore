@@ -1,0 +1,26 @@
+# ===== 离线安装包与大文件（GitHub 单文件上限 100MB）=====
+CubeArk/
+CubeArk-Offline-v1.0/
+*.zip
+*.tar.gz
+
+# ===== 含员工电话的楼层点位图纸（敏感，勿上传）=====
+图纸/
+
+# ===== 内部文档（不在本次开源范围）=====
+问题修复.doc
+图标/
+
+# ===== 本机 Claude 配置 =====
+.claude/
+
+# ===== 前端依赖与构建产物 =====
+node_modules/
+dist/
+cubeark-3d-demo/node_modules/
+cubeark-3d-demo/dist/
+
+# ===== 系统杂项 =====
+Thumbs.db
+.DS_Store
+*.log

@@ -1,0 +1,27 @@
+{
+  "name": "cubeark-3d-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@antv/x6": "^2.18.1",
+    "@antv/x6-plugin-export": "^2.1.6",
+    "three": "^0.160.1",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3",
+    "xlsx": "^0.18.5",
+    "pdfjs-dist": "^3.11.174"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "~5.5.4",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.0.29"
+  }
+}

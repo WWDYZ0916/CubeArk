@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="ck" x1="7" y1="6" x2="41" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <!-- 立方体机壳：等距六边形轮廓 -->
+  <path d="M24 5.5 40.5 14.5v19L24 42.5 7.5 33.5v-19L24 5.5Z" stroke="url(#ck)" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- 立方体内棱 -->
+  <path d="M7.5 14.5 24 23.5l16.5-9M24 23.5v19" stroke="url(#ck)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" opacity=".72"/>
+  <!-- 方舟船首（chevron）+ 数据节点 -->
+  <path d="M17 25.5l7-4.5 7 4.5" stroke="#E6F7FF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="30.8" r="2.5" fill="#E6F7FF"/>
+</svg>
